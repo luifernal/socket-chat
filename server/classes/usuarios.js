@@ -15,7 +15,7 @@ class Usuarios {
         let personasSala =this.personas.filter( pers => pers.sala === sala);
 
         return personasSala;
-
+ 
     } 
 
     getPersona( id ){
